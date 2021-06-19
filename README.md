@@ -17,8 +17,11 @@ When read by an admin, these books will force the admin to run any command you s
 - Launch minecraft on the fabric 1.17 profile
 - Go into a game that you have creative on
 - typing .w or .write in the chat is the prefix for the command
+- 
 here is the format for the command .w (name of the book) (text inside the book) (command you want them to run) ((optional) author). 
+
  The author argument is optional and will be ignored if none is provided. 
+ 
  **You need to replace all the spaces in the book you want to generate with dashes -**
  
  For Example:
