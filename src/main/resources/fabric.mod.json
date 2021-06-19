@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "forceop",
+  "version": "${version}",
+
+  "name": "Forceop",
+  "description": "Generate forceop books quickly and easily, Made by the Armada",
+  "authors": [
+    "Saturn5Vfive",
+    "Angeloid_",
+    "TheRedHippo",
+    "JoshTitan"
+  ],
+  "contact": {
+    "homepage": "https://discord.gg/2XgybNSNmU",
+    "sources": "https://github.com/Saturn5Vfive/armada-forceop"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/forceop/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.saturn.forceop.Main"
+    ]
+  },
+  "mixins": [
+    "forceop.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
