@@ -10,7 +10,7 @@ When read by an admin, these books will force the admin to run any command you s
 
 ## Here is a simple tutorial on how to install and use the mod.
 - Before using this mod, you have to download the [Fabric Loader](https://fabricmc.net/use/) and [Fabric api](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
-- After downloading the fabric loader and fabric api, download the mod [Here]
+- After downloading the fabric loader and fabric api, download the mod [Here](https://github.com/Saturn5Vfive/ArmadaForceop/raw/master/latestbuild/forceop-1.0.0.jar)
 - Place the mod inside your mods folder in minecraft
 - Launch minecraft on the fabric 1.17 profile
 - Go into a game that you have creative on
