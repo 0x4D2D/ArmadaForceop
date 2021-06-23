@@ -31,6 +31,9 @@ here is the format for the command .w (name of the book) (text inside the book) 
   
  and when you flip the page it makes you run "/say i am a silly chicken"
   
+  
+  
+  
   Another Example:
   *.w My-Epic-Book Please-Read-The-Whole-Thing! /op-@a TheDuperTrooper*
   
