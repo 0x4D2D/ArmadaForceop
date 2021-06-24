@@ -31,7 +31,7 @@ here is the format for the command .w (name of the book) (text inside the book) 
   
  and when you flip the page it makes you run "/say i am a silly chicken"
   
-  <hr\>
+ ---
   
   Another Example:
   *.w My-Epic-Book Please-Read-The-Whole-Thing! /op-@a TheDuperTrooper*
@@ -42,7 +42,7 @@ here is the format for the command .w (name of the book) (text inside the book) 
  
  however this book would be signed by TheDuperTrooper because of that optional arguement at the end
  
- <hr\>
+---
  
  For any other problems contact me on my discord saturn5Vfive#2754
  OR join the [armada discord](https://discord.com/invite/2XgybNSNmU)
