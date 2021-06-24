@@ -1,7 +1,7 @@
 # Armada Book Forceop
 
 Armada book forceop is a mod that can help elevate your permission level from gamemode creative to OP
-This mod is for the minecraft version 1.17
+This mod is for the minecraft version 1.17 and now 1.16
 **You need creative for this mod to work**
 
 *This mod was made by the armada, you can join the [public armada discord here](https://discord.com/invite/2XgybNSNmU)*
