@@ -50,7 +50,7 @@ public class ClientPlayerEntityMixin {
 				return;
 			}
 
-			notify("Created book!");
+			notifySuccess("Created book!");
 			MinecraftClient.getInstance().getNetworkHandler().sendPacket(new CreativeInventoryActionC2SPacket(MinecraftClient.getInstance().player.getInventory().selectedSlot + 36, book)); //Put the book in the players hand
 		}
 	}
