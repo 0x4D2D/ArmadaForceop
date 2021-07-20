@@ -42,7 +42,7 @@ public class ClientPlayerEntityMixin {
 			String command = arr[3].replace("-", " ").replace("\\\\", "\\"); //set the command variable to the third peram
 
 			try{ //try loop to catch any other errors (next line is a bit long so you may have to scroll) ----->
-				NbtCompound tag = StringNbtReader.parse("{Creator:\"Armada\",title:\""+ title +"\",author:\""+ author +"\",pages:['{\"text\":\""+ text +"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         \",\"clickEvent\":{\"action\":\"run_command\",\"value\":\""+ command +"\"}}','{\"text\":\"\"}','{\"text\":\"\"}']}"); //set the nbt of the itemstack, including the variables we set earlier
+				NbtCompound tag = StringNbtReader.parse(String.format("{Creator:'Armada',title:'%s',author:'%s',pages:[\"{'text':'%s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ','clickEvent':{'action':'run_command','value':'%s'}}\",\"{'text':''}\",\"{'text'}\"]}", title, author, text, command)); //set the nbt of the itemstack, including the variables we set earlier
 				book.setTag(tag); //update the book so it has the nbt we generated above
 			}catch(CommandSyntaxException e){
 				notify("Something went wrong while parsing nbt...");
@@ -57,5 +57,9 @@ public class ClientPlayerEntityMixin {
 
 	private void notify(String text){
 		MinecraftClient.getInstance().player.sendMessage(Text.of(Formatting.RED + text), false); //little notify method to send chat to the player when they do something wrong
+	}
+	
+	private void notifySuccess(String text){
+		MinecraftClient.getInstance().player.sendMessage(Text.of(Formatting.GREEN + text), false); //little notify method to send chat to the player when they do something wrong
 	}
 }
